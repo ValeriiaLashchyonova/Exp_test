@@ -1,0 +1,117 @@
+@media screen and (max-width: 992px) {
+    .head_semtech .container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top:35px;
+}
+.head_semtech .container .semtech_left p{
+    font-size:18px;
+}
+.head_semtech .container .semtech_left h1{
+    max-width: 550px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.head_semtech .container .semtech_right{
+    padding-top:0;
+    justify-content: space-between;
+}
+.head_semtech .container .semtech_right .semtech_right_text p{
+    font-size: 28px;
+    line-height: 30px;
+    max-width: 150px;
+}
+.head_semtech .container .semtech_right .semtech_right_text{
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.head_semtech .container .semtech_right .semtech_right_img{
+    transform: scale(.9);
+    padding-right: 0;
+    padding-top: 0;
+    
+}
+.head_semtech .container .semtech_right .semtech_right_text p span,
+.head_semtech .container .semtech_right .semtech_right_text p .blue{
+    font-size: 34px;
+}
+.experience .container .experience-btm .experience-btm_left{
+    margin-left:0;
+}
+.experience .container .experience-btm .experience-btm_right img{
+    max-width: 500px;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .head_semtech .container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top:10px;
+}
+.experience .container .experience-btm .experience-btm_right img{
+    max-width: 390px;
+}
+.btn-thumb {
+    font-size: 17px;
+  }
+  .btn-thumb__icon {
+    width: 115px;
+    height: 100px;
+  }
+  .btn-thumb__text {
+    padding: 17px 17px;
+    border-radius: 0 1rem 1rem 0;
+    border: 3px solid #347bac;
+    border-left: 0;
+    text-transform: capitalize;
+  }
+  
+.btn-thumb-up{
+      margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .container{
+        margin: 0 0 0 50px;
+        }
+    .head_semtech .container .semtech_right{
+        justify-content: start;
+    }
+    .experience .container .experience-btm
+{
+        flex-direction: column;
+    }
+    .btn-thumb__icon {
+        width: 110px;
+
+      }
+      .btn-thumb__text-bad {
+        padding: 20px 30px;
+}
+.btn-thumb__text{
+    padding: 20px 25px;
+}
+.experience-btm_right{
+    margin-top:10px;
+
+}
+}
+
+@media screen and (max-width: 480px) {
+    .head_semtech .container .semtech_left h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .head_semtech .container .semtech_left p{
+        font-size:16px;
+    }
+    .head_semtech .container .semtech_right .semtech_right_text p,
+    .head_semtech .container .semtech_right .semtech_right_text p span{
+        font-size: 20px;
+    }
+    .head_semtech .container .semtech_right .semtech_right_text p .blue{
+        font-size: 20px;
+    }
+}
